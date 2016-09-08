@@ -1,0 +1,27 @@
+{
+  "name": "leaflet-angular",
+  "version": "1.0.0",
+  "authors": [
+    "Douglas Henrique <douglasjvah@gmail.com>"
+  ],
+  "description": "Módulo que encapsula funcionalidades do Leaflet no AngularJS",
+  "main": "dist/leaflet-angular.min.js",
+  "keywords": [
+    "angularjs",
+    "leaflet",
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/douglasjva/leaflet-angular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "leaflet": "^1.0.0-rc.3"
+  }
+}
