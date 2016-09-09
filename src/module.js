@@ -1,1 +1,3 @@
-angular.module('leaflet-angular', []);
+(function() {
+	angular.module('leaflet-angular', []);
+})();
