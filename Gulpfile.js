@@ -8,10 +8,8 @@ var rename = require('gulp-rename');
 var files = "./src/**/*.js";
 
 gulp.task('dist', function() {
-
 	gulp.src(files)
 	.pipe(concat('./leaflet-angular.min.js'))
 	.pipe(uglify())
 	.pipe(gulp.dest('./dist'));
-
 });
