@@ -36,9 +36,15 @@
 				vm.drawPolyline = function(polyline) {
 					vm.getMap().then(function(map){
 						map.addLayer(polyline);
-						map.fitBounds(polyline.getBounds());
+						vm.fitBoundsLayer(polyline);
 					});
 				};
+
+				vm.fitBoundsLayer = function(layer) {
+					vm.getMap().then(function(map){
+						map.fitBounds(layer.getBounds());
+					});
+				}
 
 			},
 			controllerAs: 'leafletMap',
