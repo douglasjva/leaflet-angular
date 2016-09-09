@@ -27,6 +27,7 @@
 			    scope.$watch('latlngs', function(newValue, oldValue) {
 			    	if(!angular.equals(newValue, oldValue)) {
 			    		polyline.setLatLngs(newValue);
+			    		ctrl.fitBoundsLayer(polyline);
 			    	}
 				}, true);
 
