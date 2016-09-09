@@ -17,7 +17,7 @@ describe("test-directive-map", function () {
 
 	it('test config default', function() {
 		expect(mapLeaflet.getMinZoom()).toEqual(2);
-		expect(mapLeaflet.getZoom()).toEqual(2);
+		expect(mapLeaflet.getZoom()).toEqual(3);
 	    expect(mapLeaflet.getCenter().lat).toEqual(0);
 	    expect(mapLeaflet.getCenter().lng).toEqual(0);
 	});
